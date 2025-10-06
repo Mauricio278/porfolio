@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#inicio, #contacto{
+    background-image: url(../imagenes/fondo-contacto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+#proyectos{
+    background-image: url(../imagenes/fondo-proyectos.png);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: top;
+}
+header a{
+    margin: 0 0;
+}
+nav .active{
+    border: 1px solid #ff4a49;
+    border-radius: 20px;
+}
+.btn-cv{
+    position: fixed;
+    right: 135px;
+    background-color:rgb(224, 0, 0);
+    border-radius: 30px;
+    color: white;
+}
+.btn-cv:hover{
+    background-color:#370a6d;
+    color: white;
+}
+#inicio img{
+    height: 400px;
+}
+#inicio img:hover{
+    height: 410px;
+}
+.div-cohete{
+    height: 410px;
+}
+#inicio p{
+    color: white;
+    font-size: 17px;
+    border: solid white;
+    border-radius: 20px;
+    border-width: 1px;
+    text-align: center;
+    font-weight: 600;
+}
+#inicio .btn-proyectos{
+    color: #370a6d;
+    background-color: white;
+    border-radius: 20px;
+}
+#inicio .btn-proyectos:hover{
+    color: white;
+    background-color: #370a6d;
+}
+h1{
+    color: #ff4a49;
+}
+p{
+    color: #6a6a6a;
+}
+.proyecto h2{
+    font-size: 16px;
+    color: white;
+    background: #ff4a49;
+    background: linear-gradient(90deg, rgba(222, 22, 26, 1) 10%, rgba(250, 97, 97, 1) 82%);
+    padding: 8px;
+}
+.proyecto img{
+    height: 205px;
+}
+.proyecto p{
+    font-size: 14px;
+    color: #6a6a6a;
+    height: 150px;
+}
+.proyecto{
+    background-color: white;
+}
+#contacto .btn{
+    background-color: white;
+    color: #370a6d;
+}
+#contacto .btn:hover{
+    color: white;
+    background-color: #370a6d;
+}
+.btn-rojo{
+    color: white;
+    background-color: #ff4a49;
+    text-decoration: none;
+    border-radius: 16px;
+    padding: 7px;
+}
+.btn-rojo:hover{
+    color: white;
+    background-color: #370a6d;
+}
+.link-rojo{
+    color: #ff4a49;
+    text-decoration: none;
+}
+#contacto textarea{
+    height: 150px;
+}
+#contacto footer, #inicio footer{
+    color: white;
+}
+footer .fa-whatsapp{
+    position: fixed;
+    right: 75px;
+    bottom: 0px;
+    background-color:#370a6d;
+    color: white;
+    font-size: 31px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 60px;
+}
+#contacto footer a, #inicio footer a{
+    color: white;
+}
+#contacto footer .fa-github, #inicio footer .fa-github{
+    font-size: 30px;
+}
+#contacto footer .fa-linkedin-in, #inicio footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+#proyectos footer{
+    color: #ff4a49;
+}
+#proyectos footer a{
+    color: #ff4a49;
+}
+#proyectos footer .fa-github{
+    font-size: 30px;
+    color: #ff4a49;
+}
+#proyectos footer .fa-linkedin-in{
+    color: white;
+    background-color: #ff4a49;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
