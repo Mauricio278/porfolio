@@ -62,6 +62,14 @@ nav .active{
 }
 h1{
     color: #ff4a49;
+    font-size: 36px;
+}
+#stack{
+    background: linear-gradient(90deg, rgba(222, 22, 26, 1) 10%, rgba(250, 97, 97, 1) 82%);
+}
+#stack h2{
+    color: white;
+    font-size: 24px;
 }
 p{
     color: #6a6a6a;
@@ -96,8 +104,7 @@ p{
     color: white;
     background-color: #ff4a49;
     text-decoration: none;
-    border-radius: 16px;
-    padding: 7px;
+    border-radius: 20px;
 }
 .btn-rojo:hover{
     color: white;
