@@ -71,6 +71,23 @@ h1{
     color: white;
     font-size: 24px;
 }
+#stack .tecnologia{
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    height: 182px;
+}
+#stack .tecnologia img{
+    height: 180;
+}
+#stack h3{
+    font-size: 14px;
+    color: #282828;
+    font-weight: 300;
+}
+#idioma{
+    background: #ebebeb;
+}
 p{
     color: #6a6a6a;
 }
@@ -117,6 +134,11 @@ p{
 #contacto textarea{
     height: 150px;
 }
+#idioma .card{
+    background-color: #370a6d;
+    border-radius: 15px;
+    
+}
 #contacto footer, #inicio footer{
     color: white;
 }
@@ -149,17 +171,17 @@ footer .fa-whatsapp{
     border-radius: 80px;
     margin: 0 8px;
 }
-#proyectos footer{
+#proyectos footer, #sobre-mi footer{
     color: #ff4a49;
 }
-#proyectos footer a{
+#proyectos footer a, #sobre-mi footer a{
     color: #ff4a49;
 }
-#proyectos footer .fa-github{
+#proyectos footer .fa-github, #sobre-mi footer .fa-github{
     font-size: 30px;
     color: #ff4a49;
 }
-#proyectos footer .fa-linkedin-in{
+#proyectos footer .fa-linkedin-in, #sobre-mi footer .fa-linkedin-in{
     color: white;
     background-color: #ff4a49;
     font-size: 20px;
