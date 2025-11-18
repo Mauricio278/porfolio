@@ -134,9 +134,19 @@ p{
 #contacto textarea{
     height: 150px;
 }
+#idioma h2{
+    font-size: 16px;
+    font-weight: 600px;
+}
 #idioma .card{
     background-color: #370a6d;
     border-radius: 15px;
+}
+#idioma ul{
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
 }
 #contacto footer, #inicio footer{
     color: white;
