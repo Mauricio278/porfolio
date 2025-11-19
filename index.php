@@ -1,3 +1,7 @@
+<?php 
+    $pg="inicio";
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -15,35 +19,7 @@
 
 <body id="inicio">
     <header class="container">
-        <nav class="navbar navbar-expand-md">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link active px-4" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4" href="sobre-mi.html">Sobre Mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4" href="proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="btn-cv py-2 px-2">
-                <a class="nav-link" href="#" title="Hoja de Vida" target="_blank">CV Online
-                </a>
-            </div>
-        </nav>
-        <title>Contacto</title>
+        <?php include_once("menu.php"); ?>
     </header>
     <main class="container">
         <div class="row">
