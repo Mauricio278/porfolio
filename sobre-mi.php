@@ -272,8 +272,8 @@
         <section id="idioma">
             <div class="container">
                 <div class="row py-5 mx-0">
-                    <div class="col-sm-6 col-12 ">
-                        <div class="row shadow bg-white">
+                    <div class="col-sm-5 col-11">
+                        <div class="row shadow bg-white rounded-4">
                             <div class="col-4 text-center card">
                                 <img src="imagenes/Sobre-mi/hobbies-idioma/charla.png" class="img-fluid" alt="">
                             </div>
@@ -287,8 +287,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-12">
-                        <div class="row shadow bg-white">
+                    <div class="col-sm-5 col-11 offset-sm-1">
+                        <div class="row shadow bg-white rounded-4">
                             <div class="col-4 text-center card">
                                 <img src="imagenes/Sobre-mi/hobbies-idioma/hobbies.png" class="img-fluid" alt="">
                             </div>
