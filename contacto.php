@@ -1,5 +1,38 @@
 <?php
-    $pg="contacto";
+$pg = "contacto";
+
+if($_POST){
+    $nombre = $_POST["txtNombre"];
+    $correo = $_POST["txtCorreo"];
+    $telefono = $_POST["txtTelefono"];
+    $mensaje = $_POST["txtMensaje"];
+}
+
+// Multiple recipients
+$para = "mauricio.canon02@egmail.com, asistentedeafiliacion@gmail.com"; // note the comma
+
+// Subject
+$asunto = 'Recibiste mensaje desde tu página WEB';
+
+// Message
+$cuerpo = "
+Nombre: $nombre <br>
+correo: $correo <br>
+Telefono: $telefono <br>
+Mensaje: $mensaje
+";
+
+// To send HTML mail, the Content-type header must be set
+$cabeceras[] = 'MIME-Version: 1.0' . "\r\n";
+$cabeceras[] = 'Content-type: text/html; charset=UTF-8' . "\r\n";
+
+// Additional headers
+$cabeceras[] = 'To: mauricio.canon02@gmail.com,' . "\r\n";
+$cabeceras[] = 'From: contacto@mc.com' . "\r\n";
+
+// Mail it
+//mail($to, $subject, $message, implode("\r\n", $headers));
+//header("Location: confirmacion-envio.php");
 ?>
 
 <!DOCTYPE html>
@@ -15,12 +48,11 @@
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="shortcut icon" href="imagenes/MC.png">
     <link rel="stylesheet" href="css/estilos.css">
-
 </head>
 
 <body id="contacto" class="d-flex flex-column h-100">
     <header class="container">
-        <?php include_once ("menu.php"); ?>
+        <?php include_once("menu.php"); ?>
     </header>
     <main class="container">
         <div class="row">
@@ -33,7 +65,7 @@
                 <p>Te invito a que te contactes enviándome un mensaje o bien por WhatsApp.</p>
             </div>
             <div class="col-sm-6 col-12">
-                <form action="" method="post">
+                <form action="contacto.php" method="POST">
                     <div class="pb-3">
                         <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="form-control">
                     </div>

@@ -5,7 +5,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0 px-1">
                 <li class="nav-item">
                     <a class="nav-link <?php echo ($pg=="inicio")? "active": ""; ?>" px-4 href="index.php">Inicio</a>
                 </li>
