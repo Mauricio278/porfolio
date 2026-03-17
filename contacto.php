@@ -8,12 +8,16 @@ if($_POST){
     $mensaje = $_POST["txtMensaje"];
 
 // Multiple recipients
-$para = "mauricio.canon02@egmail.com, asistentedeafiliacion@gmail.com"; // note the comma
-
-// Subject
+$para = "mauricio.canon02@egmail.com"; // note the comma
 $asunto = 'Recibiste mensaje desde tu página WEB';
 
 // Message
+$cuerpo="
+Nombre: $nombre <br>
+Correo: $correo <br>
+Teléfono: $telefono <br>
+Mensaje: $mensaje <br>
+";
 
 
 // To send HTML mail, the Content-type header must be set
